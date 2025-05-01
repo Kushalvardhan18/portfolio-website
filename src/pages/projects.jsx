@@ -1,5 +1,12 @@
 import React from "react";
-function Projects(){
-    return(<></>)
+import Header from "../components/header";
+import Footer from "../components/footer";
+function Projects() {
+  return (
+    <>
+      <Header />
+      <Footer />
+    </>
+  );
 }
-export default Projects
+export default Projects;

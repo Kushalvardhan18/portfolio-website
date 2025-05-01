@@ -1,5 +1,12 @@
 import React from "react";
-function HireMe(){
-    return(<></>)
+import Header from "./components/header";
+import Footer from "./components/footer";
+function HireMe() {
+  return (
+    <>
+      <Header />
+      <Footer />
+    </>
+  );
 }
-export default HireMe
+export default HireMe;
