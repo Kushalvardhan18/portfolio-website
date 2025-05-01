@@ -7,11 +7,11 @@ function Header() {
         <img src={logo} alt="logo" width={400} />
       </div>
       <div className="flex gap-5 mx-10">
-        <nav className="cursor-pointer">Home</nav>
-        <nav className="cursor-pointer">About</nav>
-        <nav className="cursor-pointer">Contact</nav>
-        <nav className="cursor-pointer">HireMe</nav>
-        <nav className="cursor-pointer">Projects</nav>
+        <nav className="cursor-pointer hover:text-fuchsia-500">Home</nav>
+        <nav className="cursor-pointer hover:text-fuchsia-500" >About</nav>
+        <nav className="cursor-pointer hover:text-fuchsia-500">Contact</nav>
+        <nav className="cursor-pointer hover:text-fuchsia-500">HireMe</nav>
+        <nav className="cursor-pointer hover:text-fuchsia-500">Projects</nav>
       </div>
     </div>
   );
