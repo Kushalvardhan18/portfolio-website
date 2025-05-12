@@ -1,7 +1,12 @@
 import React from "react";
 import logo from "../assets/logo.png";
+import  {useLocation}  from 'react-router-dom';
 import { NavLink } from "react-router-dom";
+
 function Header() {
+  let location = useLocation()
+  console.log(location);
+  
   return (
     <div className="flex items-center justify-between">
       <div>

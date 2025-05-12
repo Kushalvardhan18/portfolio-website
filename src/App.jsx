@@ -5,6 +5,8 @@ import HireMe from './pages/hireme';
 import Projects from "./pages/projects"
 import Home from './pages/home';
 function App() {
+console.log(location);
+
   return (
     <>
     <Router>
